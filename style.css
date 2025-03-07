@@ -41,14 +41,14 @@ html {
  * Because rem is relative to the document font size
  * when we scale up or down the font size on the document
  * it will affect all properties using rem units for the values.
-*/
+ */
 
 /* I am using the em unit for breakpoints
  * The calculation is the following
  * screen size divided by browser base font size
  * As an example: a breakpoint at 980px
  * 980px / 16px = 61.25em
-*/
+ */
 
 /* 1200px / 16px = 75em */
 @media (max-width: 75em) {
